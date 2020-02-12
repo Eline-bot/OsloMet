@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+header{
+    width: 100%;
+    background-color: azure;
+    position: fixed;  
+    z-index: 20;
+}
+header nav{
+    width:1200px;
+    padding: 30px;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    padding: 30px 10px;    
+}
+.menu li a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    }
+.menu li {
+    float:left;
+    margin-left:40px;  
+    list-style: none;
+ }
+.wrapp-poster{
+    width: 100%;
+    height: 628px;
+    background-image: url("Bilde5.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size:cover;
+    align-items: center;
+    display: flex;
+    flex-direction:row;
+}
+
+#hjem  {
+    padding-left: 400px;
+    padding-bottom: 400px;
+    padding-top: 400px;
+    font-size: 60px;
+}
+#hjem h1 {
+font-family: Bowlby One SC;
+    font-stretch: semi-condensed;
+    
+}
+
+#konsept, #arrangementer, #dokumenter, #kontakt {
+    background-color: burlywood;
+    width: 100%;
+    display: inline-block;
+    
+}
+
+#konsept img, #arrangementer img, #dokumenter img, #kontakt img{
+    width: 50%;
+    float: right;
+}
+
+#konsept div; #arrangementer div, #dokumenter div,#kontakt div{
+    width: 40%;
+    float: left;
+    padding-left: 70px;
+    padding-top: 80px;
+}
